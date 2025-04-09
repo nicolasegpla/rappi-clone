@@ -304,4 +304,6 @@ $ yarn install
 ## 📄 Licencia
 Este proyecto está bajo la licencia MIT.
 
+solo esta en clone
+
 
