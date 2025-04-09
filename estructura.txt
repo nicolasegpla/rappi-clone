@@ -1,0 +1,142 @@
+.
+├── README.md
+├── ark_project_v1
+│   ├── README.md
+│   ├── blog
+│   │   ├── 2019-05-28-first-blog-post.md
+│   │   ├── 2019-05-29-long-blog-post.md
+│   │   ├── 2021-08-01-mdx-blog-post.mdx
+│   │   ├── 2021-08-26-welcome
+│   │   │   ├── docusaurus-plushie-banner.jpeg
+│   │   │   └── index.md
+│   │   ├── authors.yml
+│   │   └── tags.yml
+│   ├── docs
+│   │   ├── intro.md
+│   │   ├── tutorial-basics
+│   │   │   ├── _category_.json
+│   │   │   ├── congratulations.md
+│   │   │   ├── create-a-blog-post.md
+│   │   │   ├── create-a-document.md
+│   │   │   ├── create-a-page.md
+│   │   │   ├── deploy-your-site.md
+│   │   │   └── markdown-features.mdx
+│   │   └── tutorial-extras
+│   │       ├── _category_.json
+│   │       ├── img
+│   │       │   ├── docsVersionDropdown.png
+│   │       │   └── localeDropdown.png
+│   │       ├── manage-docs-versions.md
+│   │       └── translate-your-site.md
+│   ├── docusaurus.config.ts
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── sidebars.ts
+│   ├── src
+│   │   ├── components
+│   │   │   └── HomepageFeatures
+│   │   │       ├── index.tsx
+│   │   │       └── styles.module.css
+│   │   ├── css
+│   │   │   └── custom.css
+│   │   └── pages
+│   │       ├── index.module.css
+│   │       ├── index.tsx
+│   │       └── markdown-page.md
+│   ├── static
+│   │   └── img
+│   │       ├── docusaurus-social-card.jpg
+│   │       ├── docusaurus.png
+│   │       ├── favicon.ico
+│   │       ├── logo.svg
+│   │       ├── undraw_docusaurus_mountain.svg
+│   │       ├── undraw_docusaurus_react.svg
+│   │       └── undraw_docusaurus_tree.svg
+│   └── tsconfig.json
+├── bun.lock
+├── eslint.config.js
+├── estructura.txt
+├── generate-component.js
+├── index.html
+├── package.json
+├── public
+│   └── vite.svg
+├── src
+│   ├── App
+│   │   ├── App.tsx
+│   │   └── index.ts
+│   ├── assets
+│   ├── config
+│   ├── constants
+│   │   └── index.ts
+│   ├── core
+│   │   ├── application
+│   │   │   ├── index.ts
+│   │   │   └── usecases
+│   │   ├── domain
+│   │   │   ├── entities
+│   │   │   │   └── Characteres.ts
+│   │   │   └── repositories
+│   │   │       └── index.ts
+│   │   └── index.ts
+│   ├── infrastructure
+│   │   ├── api
+│   │   │   └── index.ts
+│   │   ├── index.ts
+│   │   └── repositories
+│   │       └── index.ts
+│   ├── main.tsx
+│   ├── presentation
+│   │   ├── components
+│   │   │   ├── Atoms
+│   │   │   │   └── index.ts
+│   │   │   ├── Buttons
+│   │   │   │   ├── Button.test.tsx
+│   │   │   │   └── Button.tsx
+│   │   │   ├── Card
+│   │   │   │   ├── Card.spec.tsx
+│   │   │   │   └── Card.tsx
+│   │   │   ├── Molecules
+│   │   │   │   ├── CharacterCard
+│   │   │   │   │   ├── CharacterCard.stories.tsx
+│   │   │   │   │   ├── CharacterCard.tsx
+│   │   │   │   │   └── charactercard.scss
+│   │   │   │   └── index.ts
+│   │   │   ├── Organisms
+│   │   │   │   └── index.ts
+│   │   │   └── index.ts
+│   │   ├── context
+│   │   │   └── index.ts
+│   │   ├── index.ts
+│   │   ├── layouts
+│   │   │   └── index.ts
+│   │   ├── pages
+│   │   ├── routes
+│   │   ├── styles
+│   │   │   ├── App.scss
+│   │   │   ├── _mixins.scss
+│   │   │   ├── _reset.scss
+│   │   │   ├── _variables.scss
+│   │   │   └── index.scss
+│   │   └── viewmodels
+│   │       └── index.ts
+│   ├── store
+│   │   ├── Context
+│   │   ├── ZustandStore
+│   │   └── index.ts
+│   ├── test
+│   │   └── setup.ts
+│   ├── types
+│   │   ├── index.d.ts
+│   │   └── index.ts
+│   ├── utils
+│   │   ├── hooks
+│   │   └── index.ts
+│   └── vite-env.d.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+└── vitest.workspace.ts
+
+50 directories, 89 files

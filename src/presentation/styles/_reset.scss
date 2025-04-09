@@ -1,0 +1,102 @@
+/* Reset básico basado en Normalize.css pero optimizado */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Elimina el comportamiento de scroll que algunos navegadores aplican por defecto */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Estilo base para body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Enlaces sin subrayado por defecto */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Listas sin estilo por defecto */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Quitar estilos por defecto en imágenes */
+img,
+picture,
+svg,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+/* Input y Button sin estilos por defecto */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* Quitar estilos por defecto en botones */
+button {
+  cursor: pointer;
+}
+
+/* Hacer que los inputs ocupen todo el ancho disponible */
+input,
+textarea {
+  width: 100%;
+}
+
+/* Quitar decoración por defecto de los links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hacer que todos los elementos de bloques ocupen todo el ancho disponible */
+main,
+section,
+article,
+aside,
+nav,
+header,
+footer {
+  display: block;
+  width: 100%;
+}
+
+/* Espaciado base para formularios */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Mejorar accesibilidad de focus */
+:focus-visible {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
